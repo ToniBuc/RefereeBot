@@ -1,0 +1,19 @@
+{
+  "name": "refereebot",
+  "version": "1.0.0",
+  "description": "referee-like discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ToniBuc",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.31.2",
+    "discord.js": "^13.6.0",
+    "sequelize": "^6.19.0",
+    "sqlite3": "^5.0.5"
+  }
+}
