@@ -28,7 +28,7 @@ module.exports = {
             .addField(':yellow_square:', String(eu.yellowcards), true)
             .addField(':red_square:', String(eu.redcards), true);
 
-            await interaction.channel.send({ embeds: [embed]});
+            await interaction.reply({ embeds: [embed]});
         }
         else {
             await interaction.reply(user.username + " has not been issued any cards yet!");
